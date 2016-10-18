@@ -84,6 +84,7 @@
     [self.annimationView addPanGestureRecognizer];
 }
 
+
 -(void)startAnnimation
 {
     [self.annimationView setJw_animationImages:self.imageList];

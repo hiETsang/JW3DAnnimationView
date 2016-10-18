@@ -4,7 +4,7 @@
 
 
 
- ![demo](/Users/ZBY.JW/Desktop/demo.gif)
+ ![demo](file:///var/folders/b6/h1v3f5j91hb8cyfswdky3v780000gn/T/cn.wiz.wiznoteformac/WizNote/aa87f5e5-a7de-45ad-8bbe-9bff358a8cdb.gif)
 
 # 使用方式:#
 
@@ -18,14 +18,13 @@
     [self.annimationView addPanGestureRecognizer];
 - 开始动画
 
-  `-(void)startAnnimation`
-
-  `{`
-
-  `[self.annimationView setJw_animationImages:self.imageList];[self.annimationView setJw_animationDuration:1.5];[self.annimationView jw_startAnimating];`
-
-  `}`
-
+  ```-(void)startAnnimation
+  {
+      [self.annimationView setJw_animationImages:self.imageList];
+      [self.annimationView setJw_animationDuration:1.5];
+      [self.annimationView jw_startAnimating];
+  }
+  ```
 
 
 ---
