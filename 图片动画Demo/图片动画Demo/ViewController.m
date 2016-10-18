@@ -43,11 +43,10 @@
     //使用方法和UIimageView一样
     JW3DAnnimationView *imageView = [[JW3DAnnimationView alloc]initWithFrame:scrollView.bounds];
     imageView.contentMode = UIViewContentModeScaleAspectFit;
+    self.annimationView = imageView;
     [self configImageView];
     
     
-    
-    self.annimationView = imageView;
     [scrollView addSubview:imageView];
     scrollView.contentSize = imageView.bounds.size;
     

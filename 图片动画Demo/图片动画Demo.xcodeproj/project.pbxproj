@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6A3AFB411DB5E34800EF5D27 /* JW3DAnnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A3AFB401DB5E34800EF5D27 /* JW3DAnnimationView.m */; };
 		6A9356C71DB48D5A0073FBF9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A9356C61DB48D5A0073FBF9 /* main.m */; };
 		6A9356CA1DB48D5A0073FBF9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A9356C91DB48D5A0073FBF9 /* AppDelegate.m */; };
 		6A9356CD1DB48D5A0073FBF9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A9356CC1DB48D5A0073FBF9 /* ViewController.m */; };
@@ -32,10 +33,11 @@
 		6A9357181DB48E3B0073FBF9 /* UIImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A9357021DB48E3B0073FBF9 /* UIImageView+WebCache.m */; };
 		6A9357191DB48E3B0073FBF9 /* UIView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A9357041DB48E3B0073FBF9 /* UIView+WebCache.m */; };
 		6A93571A1DB48E3B0073FBF9 /* UIView+WebCacheOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A9357061DB48E3B0073FBF9 /* UIView+WebCacheOperation.m */; };
-		6A9357201DB4E3D80073FBF9 /* JW3DAnnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A93571F1DB4E3D80073FBF9 /* JW3DAnnimationView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6A3AFB3F1DB5E34800EF5D27 /* JW3DAnnimationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JW3DAnnimationView.h; sourceTree = "<group>"; };
+		6A3AFB401DB5E34800EF5D27 /* JW3DAnnimationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JW3DAnnimationView.m; sourceTree = "<group>"; };
 		6A9356C21DB48D5A0073FBF9 /* 图片动画Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "图片动画Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A9356C61DB48D5A0073FBF9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6A9356C81DB48D5A0073FBF9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -87,8 +89,6 @@
 		6A9357041DB48E3B0073FBF9 /* UIView+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WebCache.m"; sourceTree = "<group>"; };
 		6A9357051DB48E3B0073FBF9 /* UIView+WebCacheOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+WebCacheOperation.h"; sourceTree = "<group>"; };
 		6A9357061DB48E3B0073FBF9 /* UIView+WebCacheOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WebCacheOperation.m"; sourceTree = "<group>"; };
-		6A93571E1DB4E3D80073FBF9 /* JW3DAnnimationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JW3DAnnimationView.h; sourceTree = "<group>"; };
-		6A93571F1DB4E3D80073FBF9 /* JW3DAnnimationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JW3DAnnimationView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +102,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6A3AFB3E1DB5E34800EF5D27 /* JW3DAnnimationView */ = {
+			isa = PBXGroup;
+			children = (
+				6A3AFB3F1DB5E34800EF5D27 /* JW3DAnnimationView.h */,
+				6A3AFB401DB5E34800EF5D27 /* JW3DAnnimationView.m */,
+			);
+			path = JW3DAnnimationView;
+			sourceTree = "<group>";
+		};
 		6A9356B91DB48D5A0073FBF9 = {
 			isa = PBXGroup;
 			children = (
@@ -121,6 +130,7 @@
 		6A9356C41DB48D5A0073FBF9 /* Demo */ = {
 			isa = PBXGroup;
 			children = (
+				6A3AFB3E1DB5E34800EF5D27 /* JW3DAnnimationView */,
 				6A9356DC1DB48E3B0073FBF9 /* SDWebImage */,
 				6A9356C81DB48D5A0073FBF9 /* AppDelegate.h */,
 				6A9356C91DB48D5A0073FBF9 /* AppDelegate.m */,
@@ -131,8 +141,6 @@
 				6A9356D31DB48D5A0073FBF9 /* LaunchScreen.storyboard */,
 				6A9356D61DB48D5A0073FBF9 /* Info.plist */,
 				6A9356C51DB48D5A0073FBF9 /* Supporting Files */,
-				6A93571E1DB4E3D80073FBF9 /* JW3DAnnimationView.h */,
-				6A93571F1DB4E3D80073FBF9 /* JW3DAnnimationView.m */,
 			);
 			name = Demo;
 			path = "图片动画Demo";
@@ -276,7 +284,7 @@
 			files = (
 				6A9357191DB48E3B0073FBF9 /* UIView+WebCache.m in Sources */,
 				6A9356CD1DB48D5A0073FBF9 /* ViewController.m in Sources */,
-				6A9357201DB4E3D80073FBF9 /* JW3DAnnimationView.m in Sources */,
+				6A3AFB411DB5E34800EF5D27 /* JW3DAnnimationView.m in Sources */,
 				6A9357111DB48E3B0073FBF9 /* SDWebImageManager.m in Sources */,
 				6A93570C1DB48E3B0073FBF9 /* SDImageCacheConfig.m in Sources */,
 				6A9357101DB48E3B0073FBF9 /* SDWebImageDownloaderOperation.m in Sources */,
