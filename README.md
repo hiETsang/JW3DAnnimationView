@@ -18,14 +18,12 @@
     [self.annimationView addPanGestureRecognizer];
 - 开始动画
 
-  `-(void)startAnnimation`
-
-  `{`
-
-  `[self.annimationView setJw_animationImages:self.imageList];[self.annimationView setJw_animationDuration:1.5];[self.annimationView jw_startAnimating];`
-
-  `}`
-
+    -(void)startAnnimation
+    {
+    [self.annimationView setJw_animationImages:self.imageList];
+    [self.annimationView setJw_animationDuration:1.5];
+    [self.annimationView jw_startAnimating];
+    }
 
 
 ---
